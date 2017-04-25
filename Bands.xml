@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BandDatabase>
+  <Band id="1" gender="Metalcore" country="UK" Label="Rise" >
+      <title>Architects</title>
+      <logo>
+         <url>http://www.rockandall.cz/wp-content/uploads/2015/07/architects-feb-2014.jpg</url>
+         <titlelogo>members</titlelogo>         
+      </logo>
+      <Activeyear>2005</Activeyear>
+      <rating>6</rating>
+      <Members>
+         <voice>mitch</voice>
+         <guitar1>alex</guitar1>
+         <guitar2>pablo</guitar2>
+         <Bass>john</Bass>
+         <Drum>martin</Drum>
+      </Members>
+      <description>suprovej metalcore</description>
+      <url>www.architects.com</url>
+      <Gender>Metacore</Gender>
+      <Albums>
+          <Album album="1" rok_vydání="3000" Review="Good">
+              <title>Lost forever / lost together</title>
+              <bestsong>C.A.N.C.E.R</bestsong>
+                    <player songID="34">
+                        <quality>Flac</quality>
+                        <Volume>100</Volume>
+                        <Leinght>3:56</Leinght>
+                        <premium>True</premium>
+                    </player>  
+          </Album>
+          <Album album="2" rok_vydání="3000" Review="Good">
+              <title>All our gots abadondent us</title>
+              <bestsong>Nihilist</bestsong>
+               <player songID="24">
+                    <quality>MP3</quality>
+                    <Volume>10</Volume>
+                    <Leinght>1:56</Leinght>
+                    <premium>False</premium>
+               </player> 
+          </Album>
+      </Albums>  
+      <Shows>
+          <country show="CZ">
+            <city>prague</city>
+            <date>
+                 <year>2008</year>
+                 <month>3</month>
+                 <day>24</day>
+            </date>
+            <place>Roxy</place>
+          </country>
+          <country show="SK">
+            <city>košice</city>
+            <date>
+                 <year>2014</year>
+                 <month>3</month>
+                 <day>26</day>
+            </date>
+            <place>Papirna</place>
+          </country>
+      </Shows>
+  </Band>
+   <Band id="2" gender="Hardcore" country="USA" Label="rise" >
+      <title>Expire</title>
+      <logo>
+         <url>http://www.allinmerch.com/mm5/graphics/00000001/expire-skull-flag-main-.jpg</url>
+         <title>logo</title>
+         
+      </logo>
+      <Activeyear>2006</Activeyear>
+      <rating>9</rating>
+      <Members>
+         <voice>Max</voice>
+         <guitar1>Enrike</guitar1>
+         <Bass>Rik</Bass>
+         <Drum>peter</Drum>
+      </Members>
+      <description>výborná kapela</description>
+      <url>www.expire.com</url>
+      <Gender>Hardcore</Gender>
+      <Albums>
+          <Album album="3" rok_vydání="3000" Review="Good">
+              <title>With Regret</title>
+              <bestsong>Reputation</bestsong>
+               <player songID="38">
+                    <quality>Flac</quality>
+                    <Volume>45</Volume>
+                    <Leinght>3:26</Leinght>
+                    <premium>True</premium>
+               </player> 
+          </Album>
+          <Album album="4" rok_vydání="3000" Review="Good">
+              <title>Pretty Low</title>
+              <bestsong>Old habits</bestsong>
+                    <player songID="14">
+                        <quality>Ogg</quality>
+                        <Volume>100</Volume>
+                        <Leinght>5:56</Leinght>
+                        <premium>True</premium>
+                    </player> 
+          </Album>
+      </Albums>
+      <Shows>
+          <country show="NL">
+            <city>Amsterdam</city>
+            <date>
+                 <year>2009</year>
+                 <month>6</month>
+                 <day>24</day>
+            </date>
+            <place>Kalipar</place>
+          </country>
+          <country show="CZ">
+            <city>Prague</city>
+            <date>
+                 <year>2008</year>
+                 <month>8</month>
+                 <day>24</day>
+            </date>
+            <place>Modra vopice</place>
+          </country>
+      </Shows>
+  </Band>
+   <Band id="3" gender="Hardcore" country="CZ" Label="kamen" >
+      <title>Howl</title>
+      <logo>
+         <url></url>
+         <title>logo</title>
+         
+      </logo>
+      <Activeyear>2015</Activeyear>
+      <rating>5</rating>
+      <Members>
+         <voice>matěj</voice>
+         <guitar1>kuba</guitar1>
+         <Bass>honza</Bass>
+         <Drum>david</Drum>
+      </Members>
+      <description>natěr</description>
+      <url>www.howl.com</url>
+      <Gender>Hardcore</Gender>
+      <Albums>
+          <demo demo="1" rok_vydání="3000" Review="Good" >
+              <title2>EP</title2>
+              <bestdemo>11</bestdemo>
+              <player songID="15">
+                        <quality>MIDI</quality>
+                        <Volume>100</Volume>
+                        <Leinght>5:52</Leinght>
+                        <premium>False</premium>
+              </player> 
+          </demo>
+      </Albums>
+      <Shows>
+          <country show="CZ">
+            <city>Prague</city>
+            <date>
+                 <year>2015</year>
+                 <month>3</month>
+                 <day>15</day>
+            </date>
+            <place>Cafe na pul cesty</place>
+          </country>
+          <country show="CZ">
+            <city>Prague</city>
+            <date>
+                 <year>2016</year>
+                 <month>3</month>
+                 <day>24</day>
+            </date>
+            <place>Naplavka</place> 
+          </country>
+      </Shows>
+  </Band>
+  <Band id="4" gender="pop" country="USA" Label="disney" >
+      <title>Rihanna</title>
+      <logo>
+         <url>https://pbs.twimg.com/profile_images/751766728615485441/VJQluIfK.jpg</url>
+         <title>rihana</title>   
+      </logo>
+      <Activeyear>1980</Activeyear>
+      <rating>1</rating>
+      <Members>
+         <voice>Rihana</voice>
+      </Members>
+      <description>Je to kočka</description>
+      <url>www.Rihanna.com</url>
+      <Gender>Pop</Gender>
+      <Albums>
+          <Album album="5" rok_vydání="3000" Review="Good" >
+              <title>I love it </title>
+              <bestsong>mnau</bestsong>
+                    <player songID="54">
+                        <quality>Ogg</quality>
+                        <Volume>50</Volume>
+                        <Leinght>4:56</Leinght>
+                        <premium>True</premium>
+                    </player> 
+          </Album>
+      </Albums>
+      <Shows>
+          <country show="USA">
+            <city>D.C</city>
+            <date>
+                 <year>2005</year>
+                 <month>3</month>
+                 <day>15</day>
+            </date>
+            <place>colonada</place>
+          </country>
+          <country show="CZ">
+            <city>Prague</city>
+            <date>
+                 <year>2006</year>
+                 <month>3</month>
+                 <day>24</day>
+            </date>
+            <place>O2arena</place> 
+          </country>
+      </Shows>
+  </Band>
+  <Band id="5" gender="RAP" country="USA" Label="sixfeet" >
+      <title>Onyx</title>
+      <logo>
+         <url>https://pbs.twimg.com/profile_images/823946846557138944/gVVMJNbx.jpg</url>
+         <title>logo</title>   
+      </logo>
+      <Activeyear>1984</Activeyear>
+      <rating>10</rating>
+      <Members>
+         <voice>Fredo</voice>
+         <voice2>Sticky</voice2>
+      </Members>
+      <description>Pořadej NYR rap</description>
+      <url>www.onyx.com</url>
+      <Gender>RAP</Gender>
+      <Albums>
+          <Album album="3" rok_vydání="3000" Review="Good">
+              <title>Kill em all </title>
+              <bestsong>KIll</bestsong>
+              <player songID="14">
+                        <quality>Ogg</quality>
+                        <Volume>10</Volume>
+                        <Leinght>7:56</Leinght>
+                        <premium>True</premium>
+              </player> 
+          </Album>
+      </Albums>
+      <Shows>
+          <country show="USA">
+            <city>NY</city>
+            <date>
+                 <year>2001</year>
+                 <month>3</month>
+                 <day>15</day>
+            </date>
+            <place>PCarena</place>
+          </country>
+          <country show="CZ">
+            <city>Prague</city>
+            <date>
+                 <year>2001</year>
+                 <month>3</month>
+                 <day>24</day>
+            </date>
+            <place>O2arena</place> 
+          </country>
+      </Shows>
+  </Band>
+</BandDatabase>

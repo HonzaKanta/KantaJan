@@ -1,0 +1,339 @@
+{
+  "BandDatabase": {
+    "Band": [
+      {
+        "-id": "1",
+        "-gender": "Metalcore",
+        "-country": "UK",
+        "-Label": "Rise",
+        "title": "Architects",
+        "logo": {
+          "url": "http://www.rockandall.cz/wp-content/uploads/2015/07/architects-feb-2014.jpg",
+          "titlelogo": "members"
+        },
+        "Activeyear": "2005",
+        "rating": "6",
+        "Members": {
+          "voice": "mitch",
+          "guitar1": "alex",
+          "guitar2": "pablo",
+          "Bass": "john",
+          "Drum": "martin"
+        },
+        "description": "suprovej metalcore",
+        "url": "www.architects.com",
+        "Gender": "Metacore",
+        "Albums": {
+          "Album": [
+            {
+              "-album": "1",
+              "-rok_vydání": "3000",
+              "-Review": "Good",
+              "title": "Lost forever / lost together",
+              "bestsong": "C.A.N.C.E.R",
+              "player": {
+                "-songID": "34",
+                "quality": "Flac",
+                "Volume": "100",
+                "Leinght": "3:56",
+                "premium": "True"
+              }
+            },
+            {
+              "-album": "2",
+              "-rok_vydání": "3000",
+              "-Review": "Good",
+              "title": "All our gots abadondent us",
+              "bestsong": "Nihilist",
+              "player": {
+                "-songID": "24",
+                "quality": "MP3",
+                "Volume": "10",
+                "Leinght": "1:56",
+                "premium": "False"
+              }
+            }
+          ]
+        },
+        "Shows": {
+          "country": [
+            {
+              "-show": "CZ",
+              "city": "prague",
+              "date": {
+                "year": "2008",
+                "month": "3",
+                "day": "24"
+              },
+              "place": "Roxy"
+            },
+            {
+              "-show": "SK",
+              "city": "košice",
+              "date": {
+                "year": "2014",
+                "month": "3",
+                "day": "26"
+              },
+              "place": "Papirna"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "2",
+        "-gender": "Hardcore",
+        "-country": "USA",
+        "-Label": "rise",
+        "title": "Expire",
+        "logo": {
+          "url": "http://www.allinmerch.com/mm5/graphics/00000001/expire-skull-flag-main-.jpg",
+          "title": "logo"
+        },
+        "Activeyear": "2006",
+        "rating": "9",
+        "Members": {
+          "voice": "Max",
+          "guitar1": "Enrike",
+          "Bass": "Rik",
+          "Drum": "peter"
+        },
+        "description": "výborná kapela",
+        "url": "www.expire.com",
+        "Gender": "Hardcore",
+        "Albums": {
+          "Album": [
+            {
+              "-album": "3",
+              "-rok_vydání": "3000",
+              "-Review": "Good",
+              "title": "With Regret",
+              "bestsong": "Reputation",
+              "player": {
+                "-songID": "38",
+                "quality": "Flac",
+                "Volume": "45",
+                "Leinght": "3:26",
+                "premium": "True"
+              }
+            },
+            {
+              "-album": "4",
+              "-rok_vydání": "3000",
+              "-Review": "Good",
+              "title": "Pretty Low",
+              "bestsong": "Old habits",
+              "player": {
+                "-songID": "14",
+                "quality": "Ogg",
+                "Volume": "100",
+                "Leinght": "5:56",
+                "premium": "True"
+              }
+            }
+          ]
+        },
+        "Shows": {
+          "country": [
+            {
+              "-show": "NL",
+              "city": "Amsterdam",
+              "date": {
+                "year": "2009",
+                "month": "6",
+                "day": "24"
+              },
+              "place": "Kalipar"
+            },
+            {
+              "-show": "CZ",
+              "city": "Prague",
+              "date": {
+                "year": "2008",
+                "month": "8",
+                "day": "24"
+              },
+              "place": "Modra vopice"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "3",
+        "-gender": "Hardcore",
+        "-country": "CZ",
+        "-Label": "kamen",
+        "title": "Howl",
+        "logo": { "title": "logo" },
+        "Activeyear": "2015",
+        "rating": "5",
+        "Members": {
+          "voice": "matěj",
+          "guitar1": "kuba",
+          "Bass": "honza",
+          "Drum": "david"
+        },
+        "description": "natěr",
+        "url": "www.howl.com",
+        "Gender": "Hardcore",
+        "Albums": {
+          "demo": {
+            "-demo": "1",
+            "-rok_vydání": "3000",
+            "-Review": "Good",
+            "title2": "EP",
+            "bestdemo": "11",
+            "player": {
+              "-songID": "15",
+              "quality": "MIDI",
+              "Volume": "100",
+              "Leinght": "5:52",
+              "premium": "False"
+            }
+          }
+        },
+        "Shows": {
+          "country": [
+            {
+              "-show": "CZ",
+              "city": "Prague",
+              "date": {
+                "year": "2015",
+                "month": "3",
+                "day": "15"
+              },
+              "place": "Cafe na pul cesty"
+            },
+            {
+              "-show": "CZ",
+              "city": "Prague",
+              "date": {
+                "year": "2016",
+                "month": "3",
+                "day": "24"
+              },
+              "place": "Naplavka"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "4",
+        "-gender": "pop",
+        "-country": "USA",
+        "-Label": "disney",
+        "title": "Rihanna",
+        "logo": {
+          "url": "https://pbs.twimg.com/profile_images/751766728615485441/VJQluIfK.jpg",
+          "title": "rihana"
+        },
+        "Activeyear": "1980",
+        "rating": "1",
+        "Members": { "voice": "Rihana" },
+        "description": "Je to kočka",
+        "url": "www.Rihanna.com",
+        "Gender": "Pop",
+        "Albums": {
+          "Album": {
+            "-album": "5",
+            "-rok_vydání": "3000",
+            "-Review": "Good",
+            "title": "I love it ",
+            "bestsong": "mnau",
+            "player": {
+              "-songID": "54",
+              "quality": "Ogg",
+              "Volume": "50",
+              "Leinght": "4:56",
+              "premium": "True"
+            }
+          }
+        },
+        "Shows": {
+          "country": [
+            {
+              "-show": "USA",
+              "city": "D.C",
+              "date": {
+                "year": "2005",
+                "month": "3",
+                "day": "15"
+              },
+              "place": "colonada"
+            },
+            {
+              "-show": "CZ",
+              "city": "Prague",
+              "date": {
+                "year": "2006",
+                "month": "3",
+                "day": "24"
+              },
+              "place": "O2arena"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "5",
+        "-gender": "RAP",
+        "-country": "USA",
+        "-Label": "sixfeet",
+        "title": "Onyx",
+        "logo": {
+          "url": "https://pbs.twimg.com/profile_images/823946846557138944/gVVMJNbx.jpg",
+          "title": "logo"
+        },
+        "Activeyear": "1984",
+        "rating": "10",
+        "Members": {
+          "voice": "Fredo",
+          "voice2": "Sticky"
+        },
+        "description": "Pořadej NYR rap",
+        "url": "www.onyx.com",
+        "Gender": "RAP",
+        "Albums": {
+          "Album": {
+            "-album": "3",
+            "-rok_vydání": "3000",
+            "-Review": "Good",
+            "title": "Kill em all ",
+            "bestsong": "KIll",
+            "player": {
+              "-songID": "14",
+              "quality": "Ogg",
+              "Volume": "10",
+              "Leinght": "7:56",
+              "premium": "True"
+            }
+          }
+        },
+        "Shows": {
+          "country": [
+            {
+              "-show": "USA",
+              "city": "NY",
+              "date": {
+                "year": "2001",
+                "month": "3",
+                "day": "15"
+              },
+              "place": "PCarena"
+            },
+            {
+              "-show": "CZ",
+              "city": "Prague",
+              "date": {
+                "year": "2001",
+                "month": "3",
+                "day": "24"
+              },
+              "place": "O2arena"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

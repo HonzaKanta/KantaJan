@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title>Dokumentace_Kanta</title>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+    <meta name='author' content='Jan Kanta'>
+    <meta name='robots' content='all'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link href='' rel='shortcut icon' type='image/png'>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <h1>Band_Aplication</h1>
+          <nav>
+            <a href="#uvod">Uvod</a>
+            <a href="#metodika">Metodika</a>
+	    <a href="#Popis Elemtů a Atributů">Popis Elemtů a Atributů</a>
+            <a href="#Popis Transformace">Popis Transformace</a>
+            <a href="#odstavec">odstavec</a>
+          <nav>
+        </header>
+      </section>
+    	<article>
+		<h2 id="uvod">Uvod</h2>		
+         <p>Jedná se o aplikaci přehledu kapel a jejich koncertů, které harjí tvrdší muziku jako je 
+					<ul>
+            <li>HardCore</li>
+            <li>MetalCore</li>
+            <li>DeadCore</li>
+	    <li>Rap</li>
+					</ul>
+	 <p> Aplikace dovoluje i přehrání nejlepších skladeb z jednotlivých alb podle kterých se můžeme rozhodnout jeslti pujdeme na koncert či ne.
+      </article>
+      <article>
+		<h2>Metodika</h2>		
+         <p>Z prvu jsem si rozmysleslel o čem aplikace bude - poto jsme si rozvrhl xml dokument ke kterému jsem definoval xml schéma poté jsme vytvořil xsl a udělal transformaci v JSON 
+      </article>	
+      <article>
+          <h2>Popis Elemtů</h2>
+          <table style="border: 1px solid black">
+            <tr>
+              <th>NazevElementu</th>
+              <th>PodElementy</th>
+              <th>Type</th>
+              <th>Funkce</th>
+            </tr>
+            <tr>
+              <td>Title</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>Název kapely</td>               
+            </tr>
+            <tr>
+              <td>Logo</td> 
+              <td></td>
+              <td>xs:complexType</td>
+              <td>Profilové foto kapely</td>               
+            </tr>  
+              <tr>
+              <td></td>
+              <td>URL</td> 
+              <td>xs:string</td>
+              <td>odkaz na obrazek</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>TitleLogo</td> 
+              <td>xs:string</td>
+              <td>Obrazek</td>               
+            </tr>
+             <tr>
+              <td>Activeyear</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>Rok vzniku</td>               
+            </tr>  
+             <tr>
+              <td>Rating</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>Hodnocení kapely</td>               
+            </tr>  
+             <tr>
+              <td>Members</td> 
+              <td></td> 
+              <td>xs:complexType</td>
+              <td>Členové kapely</td>               
+            </tr> 
+            <tr>
+              <td></td>
+              <td>voice1</td> 
+              <td>xs:string</td>
+              <td>zpevák1</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>voice2</td> 
+              <td>xs:string</td>
+              <td>zpevák2</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>guitar1</td> 
+              <td>xs:string</td>
+              <td>kytara1</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>guitar2</td> 
+              <td>xs:string</td>
+              <td>kytara2</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Bass</td> 
+              <td>xs:string</td>
+              <td>Basa</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Drum</td> 
+              <td>xs:string</td>
+              <td>Bubeník</td>               
+            </tr>
+            <tr>
+              <td>Description</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>Popis kapely</td>               
+            </tr> 
+            <tr>
+              <td>URL</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>webovky</td>               
+            </tr> 
+            <tr>
+              <td>Gender</td> 
+              <td></td> 
+              <td>xs:string</td>
+              <td>Hudební styl</td>               
+            </tr> 
+            <tr>
+              <td>Albums</td> 
+              <td></td> 
+              <td>xs:complexType</td>
+              <td>Alba</td>  
+            </tr> 
+            <tr>
+              <td></td>
+              <td>title</td> 
+              <td>xs:string</td>
+              <td>Album nazev</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>bestsong</td> 
+              <td>xs:string</td>
+              <td>Nejocenovanější pisnička</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Player</td> 
+              <td>xs:ComplexType</td>
+              <td>Přehravač</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Quality</td> 
+              <td>Quality</td>
+              <td>Kvalita</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Volume</td> 
+              <td>volume</td>
+              <td>Hlasitost</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Leinght</td> 
+              <td>Leinght</td>
+              <td>Délka</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>Premium</td> 
+              <td>xs:boolean</td>
+              <td>Premium</td>               
+            </tr>
+            <tr>
+              <td>Demo</td> 
+              <td></td> 
+              <td>xs:complexType</td>
+              <td>Demo nahravka</td>               
+            </tr> 
+            <tr>
+              <td></td>
+              <td>title2</td> 
+              <td>xs:string</td>
+              <td>nazev dema</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>bestdemo</td> 
+              <td>xs:string</td>
+              <td>Nejocenovanější demo</td>               
+            </tr>
+            <tr>
+              <td>Show</td> 
+              <td></td> 
+              <td>xs:complexType</td>
+              <td>koncert</td>               
+            </tr> 
+            <tr>
+              <td></td>
+              <td>country</td> 
+              <td>xs:ComplexType</td>
+              <td>země</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>city</td> 
+              <td>xs:string</td>
+              <td>město</td>               
+            </tr>
+             <tr>
+              <td></td>
+              <td>date</td> 
+              <td>xs:string</td>
+              <td>datum</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>year</td> 
+              <td>xs:positiveInteger</td>
+              <td>rok</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>month</td> 
+              <td>xs:positiveInteger</td>
+              <td>mesic</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>day</td> 
+              <td>xs:positiveInteger</td>
+              <td>den</td>               
+            </tr>
+            <tr>
+              <td></td>
+              <td>place</td> 
+              <td>xs:string</td>
+              <td>prostor</td>               
+            </tr>
+          </table>
+      </article>
+        <article>
+          <h2>Popis Atributů</h2>
+          <table style="border: 1px solid black">
+            <tr>
+              <th>NazevAtributu</th>
+              <th>Type</th>
+            </tr>
+            <tr>
+              <td>id</td> 
+              <td>xs:positiveInteger</td>             
+            </tr>
+            <tr>
+              <td>gender</td> 
+              <td>xs:string</td>             
+            </tr>
+            <tr>
+              <td>country</td> 
+              <td>xs:string</td>             
+            </tr>
+            <tr>
+              <td>label</td> 
+              <td>xs:string</td>             
+            </tr>
+            <tr>
+              <td>Album</td> 
+              <td>xs:string</td>             
+            </tr>
+            <tr>
+              <td>album</td> 
+              <td>xs:positiveInteger</td>             
+            </tr>
+            <tr>
+              <td>demo</td> 
+              <td>xs:positiveInteger</td>             
+            </tr>
+             <tr>
+              <td>Show</td> 
+              <td>xs:string</td>             
+            </tr>
+             <tr>
+              <td>rok_vydaní</td> 
+              <td>xs:positiveInteger</td>             
+            </tr>
+             <tr>
+              <td>review</td> 
+              <td>xs:string</td>             
+            </tr>
+             <tr>
+              <td>SongID</td> 
+              <td>xxs:positiveInteger</td>             
+            </tr>
+             </table>
+        </article>      
+      <article>
+          <h2>Popis Typů</h2>
+          <ul>
+            <b>ActiveYear</b>
+            <li>Hodnota v intervalu od </li>
+            <li>1900 do 2999</li>
+          </ul>
+          <ul>
+            <b>Album</b>
+            <li>Počet alb max 20</li>
+          </ul>
+          <ul>
+            <b>Quality</b>
+            <li>Pouze hodnoty:</li>
+            <li>OGG</li>
+            <li>MP3</li>
+            <li>MIDI</li>
+            <li>FLAC</li>
+          </ul>
+          <ul>
+            <b>Volume</b>
+            <li>Od 0 do 100</li>
+          </ul>
+      </article>
+      <article>
+          <h2 id="odstavec" >Odstavce</h2>
+            <p>Se začátkem akademického roku 2016/17 došlo ke skrytí kurzů z předchozího akademického roku 2015/16 pro studenty.          
+      </article>
+      <section>
+				<footer>
+				  <p>Posted by: Jan Kanta</p>
+				  <p>Contact information: <a href="mailto:xkanj010@studenti.czu.cz">
+				  xkanj010@studenti.czu.cz</a>.</p>
+				</footer>
+      </article>
+    </main>
+  </body>
+</html>

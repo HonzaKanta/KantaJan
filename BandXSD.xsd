@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xs:element name="BandDatabase">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Band" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+             <xs:sequence>
+               <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+               <xs:attribute name="gender" type="xs:string" use="required" />
+               <xs:attribute name="country" type="xs:string" use="required" />
+               <xs:attribute name="label" type="xs:string" use="required" />
+               <xs:element type="xs:string" name="title"/>  
+               <xs:element name="Logo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="url" name="Url"/>
+                    <xs:element type="xs:string" name="titlelogo"/>
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element> 
+               <xs:element name="Activeyear" type="Activeyear">  
+               <xs:element type="xs:string" name="rating"/>
+               <xs:element name="members">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="voice"/>
+                    <xs:element type="xs:string" name="voice2"/>
+                    <xs:element type="xs:string" name="guitar1"/>
+                    <xs:element type="xs:string" name="guitar2"/>
+                    <xs:element type="xs:string" name="bass"/>
+                    <xs:element type="xs:string" name="bass"/>
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element> 
+               <xs:element type="xs:string" name="description"/>
+               <xs:element type="xs:string" name="url"/>
+               <xs:element type="xs:string" name="gender"/>
+               <xs:element name="Albums">
+               <xs:attribute name="Album" type="xs:positiveInteger"/>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element type="xs:string" name="bestsong"/>
+                    <xs:element name="Player">
+                    <xs:attribute name="songID" type="xs:positiveInteger"/>
+                     <xs:complexType>
+                       <xs:sequence>
+                         <xs:element type="quality" name="quality"/>
+                         <xs:element type="volume" name="volume"/>
+                         <xs:element type="Leinght" name="leinght"/>
+                         <xs:element type="xs:boolean" name="premium"/>
+                       </xs:sequence>
+                     </xs:complexType>
+                    </xs:element> 
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element> 
+               <xs:element name="Demo">
+               <xs:attribute name="demo" type="xs:positiveInteger"/>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="title2"/>
+                    <xs:element type="xs:string" name="bestdemo"/>
+                    <xs:element name="Player">
+                    <xs:attribute name="songID" type="xs:positiveInteger"/>
+                     <xs:complexType>
+                       <xs:sequence>
+                         <xs:element type="quality" name="quality"/>
+                         <xs:element type="volume" name="volume"/>
+                         <xs:element type="Leinght" name="leinght"/>
+                         <xs:element type="xs:boolean" name="premium"/>
+                       </xs:sequence>
+                     </xs:complexType>
+                    </xs:element> 
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element> 
+               <xs:element name="Shows">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="city"/>
+                          <xs:element name="date">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:positiveInteger" name="year"/>
+                                <xs:element type="xs:positiveInteger" name="month"/>
+                                <xs:element type="xs:positiveInteger" name="day"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="place"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="Show" use="optional"/>
+                        <xs:attribute type="xs:positiveInteger" name="rok_vydání"/>
+                        <xs:attribute type="xs:string" name="Review"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              </xs:element>
+             </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- omezení -->
+  <xs:simpleType name="Activeyear">    
+   <xs:restriction base="xs:integer"> 
+    <xs:minInclusive value="1900"/>      
+    <xs:maxInclusive value="2999"/> 
+   </xs:restriction> 
+  </xs:simpleType>
+   <xs:simpleType name="Album">    
+   <xs:restriction base="xs:integer">       
+    <xs:maxInclusive value="20"/> 
+   </xs:restriction> 
+  </xs:simpleType>
+   <xs:simpleType name="quality">    
+   <xs:restriction base="xs:string"> 
+    <xs:enumeration value="Ogg" />
+    <xs:enumeration value="MP3" />
+    <xs:enumeration value="MIDI" />
+    <xs:enumeration value="FLAC" />
+   </xs:restriction> 
+   </xs:simpleType>
+   <xs:simpleType name="Volume">
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>      
+        <xs:maxInclusive value="100"/>   
+      </xs:restriction>
+   </xs:simpleType>
+</xs:schema>
